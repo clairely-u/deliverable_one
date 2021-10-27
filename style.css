@@ -1,0 +1,118 @@
+a {
+    color:#7944e6;
+    font-size: large;
+    text-decoration: none;
+}
+
+body {
+    font-family: bungee;
+    margin:30px;
+}
+
+div {
+    text-align: right;
+    display: block;
+}
+
+h1 {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: right;
+    display: inline;
+
+}
+
+h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+header {
+    margin: auto;
+    display: flex;
+    color: #7944e6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+p {
+    line-height: 1;
+    margin-top: 5px;
+}
+
+
+.aboutsection {
+    background-color: #ff00ff;
+    text-align: left;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+.linky:hover {
+    color: #10fdff;
+}
+
+.hellotruck {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top:30px;
+}
+
+.links {
+    text-align: center;
+    border: 5px solid #7944e6;
+    margin-top: 30px;
+    margin-bottom:30px;
+    margin-right:90px;
+    margin-left: 90px;
+}
+
+.triplec {
+    max-width: 90px;
+    height: auto;
+    display: block;
+  width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+      float: right;
+    }
+
+    .headp-sbs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-sbs {
+        display: flex;
+        align-items:center;
+    }
+    
+    .links-sbs {
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        text-align: right;
+        width: 100%;
+        margin-right:0px;
+    }
+
+}
